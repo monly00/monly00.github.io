@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>A</title>
+        <link rel="stylesheet" href="main.css">
+        <link id="theme"  rel="stylesheet" href="themes/paper-theme.css">
+    </head>
+    <body>
+        <div id="main-wrapper" class="wrapper">
+            <div id="editor" class="wrapper">
+                <div id="main-menu" class="menu-layer">
+                    <ul>
+                        <li id="main-menu-file" class="menu-item">
+                            <a href="#">File</a>
+                        </li>   
+                        <li id="main-menu-edit" class="menu-item">
+                            <a href="#">Edit</a>
+                        </li>   
+                        <li id="main-menu-find" class="menu-item">
+                            <a href="#">Find</a>
+                        </li>
+                        <li id="main-menu-view" class="menu-item">
+                            <a href="#">View</a>
+                        </li>
+                        <li id="main-menu-tools" class="menu-item">
+                            <a href="#">Tools</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="sub-menu" class="menu-layer">
+                    <ul></ul>
+                </div>
+                <div id="textarea-wrapper" class="wrapper">
+                    <textarea id="textarea" placeholder="empty"></textarea>
+                </div>
+                <div id="status-bar">Status Bar</div>
+                <div class="prompt" id="prompt">
+                    <input type="text" id="prompt-input">
+                    <ul id="prompt-results">
+                        <li><a href="#">Save As</a></li>
+                    </ul>
+                </div> 
+            </div>
+        </div>
+        <script src="main.js"></script>
+        <script src="editor.js"></script>
+        <script src="menu.js"></script>
+        <script src="fileman.js"></script>
+    </body> 
+</html>

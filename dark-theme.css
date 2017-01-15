@@ -1,0 +1,81 @@
+#editor {
+	background-color: #212121;
+	color: #f0f0f0;
+}
+.menu-layer {
+	font-family: sans-serif;
+	font-size: 12px;
+}
+#main-menu {
+	background-color: #282828;
+}
+#main-menu li.menu-item a {
+	text-decoration: none;
+	background-color: #282828;
+	color: #c3c3c3;
+	transition: color 0.1s;
+}
+#main-menu li.menu-item a:hover, #main-menu li.menu-item a:active, #main-menu li.menu-item a:focus {
+	outline: none;
+	color: #f0f0f0;
+}
+#sub-menu {
+	background-color: #282828;
+}
+#sub-menu li.menu-item a {
+	text-decoration: none;
+	background-color: #282828;
+	color: #dddddd;
+	border-radius: 0;
+	transition: background-color 0.1s, color 0.1s, border-radius 60s;
+}
+#sub-menu li.menu-item a:hover, #sub-menu li.menu-item a:active, #sub-menu li.menu-item a:focus {
+	outline: none;
+	background-color: #3d6bb3;
+	color: #ffffff;
+	border-radius: 15px;
+}
+#textarea {
+	padding-left: 30px;
+	padding-top: 10px;
+	background-color: #212121;
+	color: #f0f0f0;
+	font-family: monospace;
+	font-size: 14px;
+}
+#textarea::selection {
+	background-color: rgba(61, 107, 179, 0.9);
+	color: #ffffff;
+}
+#status-bar {	
+	background-color: rgba(255, 255, 255, 0.1);
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+.prompt {
+	border: 1px dotted #ffffff;
+}
+#prompt-input {
+	background-color: #424242;
+	color: #f0f0f0;
+}
+#prompt-results li a {
+	font-family: sans-serif;
+	font-size: 24px;
+	text-decoration: none;
+	background-color: transparent;
+	color: #f0f0f0;
+}
+#prompt-results li:nth-child(even) {
+	background-color: #424242;
+}
+#prompt-results li:nth-child(odd) {
+	background-color: #353535;
+}
+#prompt-results li a:hover, #prompt-results li a:active, #prompt-results li a:focus {
+	outline: none;
+	background-color: #3d6bb3;
+	color: #f0f0f0;
+}
